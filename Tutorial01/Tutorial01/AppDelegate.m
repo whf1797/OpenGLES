@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -19,6 +19,7 @@
     
     CGRect screenBounds = [[UIScreen mainScreen] bounds];    
     self.glView = [[OpenGLView alloc] initWithFrame:screenBounds];
+    self.window.rootViewController = [ViewController new];
     [self.window addSubview:self.glView];
     
     self.window.backgroundColor = [UIColor whiteColor];
