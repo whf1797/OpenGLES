@@ -1,13 +1,13 @@
 //
 //  AppDelegate.m
-//  Tutorial02
+//  Tutorial01
 //
-//  Created by kesalin@gmail.com on 12-11-25.
-//  Copyright (c) 2012年 http://blog.csdn.net/kesalin/. All rights reserved.
+//  Created by  on 12-11-24.
+//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
 #import "AppDelegate.h"
-
+#import "ViewController.h"
 @implementation AppDelegate
 
 @synthesize window = _window;
@@ -19,6 +19,7 @@
     
     CGRect screenBounds = [[UIScreen mainScreen] bounds];    
     self.glView = [[OpenGLView alloc] initWithFrame:screenBounds];
+    self.window.rootViewController = [ViewController new];
     [self.window addSubview:self.glView];
     
     self.window.backgroundColor = [UIColor whiteColor];

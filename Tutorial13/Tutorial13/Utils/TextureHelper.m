@@ -6,6 +6,9 @@
 //
 
 #import "TextureHelper.h"
+#import <OpenglES/ES3/gl.h>
+#import <GLKit/GLKit.h>
+
 
 // TextureHelper anoymous category
 //
@@ -82,19 +85,19 @@
     switch ([loader textureFormat]) {
         case TextureFormatPvrtcRgba2:
             bitsPerPixel = 2;
-            format = GL_COMPRESSED_RGBA_PVRTC_2BPPV1_IMG;
+//            format = GL_COMPRESSED_RGBA_PVRTC_2BPPV1_IMG;
             break;
         case TextureFormatPvrtcRgb2:
             bitsPerPixel = 2;
-            format = GL_COMPRESSED_RGB_PVRTC_2BPPV1_IMG;
+//            format = GL_COMPRESSED_RGB_PVRTC_2BPPV1_IMG;
             break;
         case TextureFormatPvrtcRgba4:
             bitsPerPixel = 4;
-            format = GL_COMPRESSED_RGBA_PVRTC_4BPPV1_IMG;
+//            format = GL_COMPRESSED_RGBA_PVRTC_4BPPV1_IMG;
             break;
         case TextureFormatPvrtcRgb4:
             bitsPerPixel = 4;
-            format = GL_COMPRESSED_RGB_PVRTC_4BPPV1_IMG;
+//            format = GL_COMPRESSED_RGB_PVRTC_4BPPV1_IMG;
             break;
         default:
             compressed = false;

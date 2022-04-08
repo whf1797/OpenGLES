@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0DC048F9280007D90033A716 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0DC048F8280007D90033A716 /* ViewController.m */; };
 		2171BC591661B25A007B4825 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2171BC581661B25A007B4825 /* UIKit.framework */; };
 		2171BC5B1661B25A007B4825 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2171BC5A1661B25A007B4825 /* Foundation.framework */; };
 		2171BC5D1661B25A007B4825 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2171BC5C1661B25A007B4825 /* CoreGraphics.framework */; };
@@ -24,6 +25,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		0DC048F7280007D90033A716 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		0DC048F8280007D90033A716 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		2171BC541661B25A007B4825 /* Tutorial02.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Tutorial02.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2171BC581661B25A007B4825 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
 		2171BC5A1661B25A007B4825 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
@@ -96,6 +99,8 @@
 			children = (
 				2171BC671661B25A007B4825 /* AppDelegate.h */,
 				2171BC681661B25A007B4825 /* AppDelegate.m */,
+				0DC048F7280007D90033A716 /* ViewController.h */,
+				0DC048F8280007D90033A716 /* ViewController.m */,
 				2171BC751661B2FA007B4825 /* OpenGLView.h */,
 				2171BC761661B2FA007B4825 /* OpenGLView.m */,
 				2171BC7C1661B64A007B4825 /* GLESUtils.h */,
@@ -147,12 +152,18 @@
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0420;
+				TargetAttributes = {
+					2171BC531661B25A007B4825 = {
+						DevelopmentTeam = 7XH8ZQQ2YY;
+					};
+				};
 			};
 			buildConfigurationList = 2171BC4E1661B25A007B4825 /* Build configuration list for PBXProject "Tutorial02" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 2171BC491661B25A007B4825;
@@ -189,6 +200,7 @@
 				2171BC691661B25A007B4825 /* AppDelegate.m in Sources */,
 				2171BC771661B2FA007B4825 /* OpenGLView.m in Sources */,
 				2171BC7E1661B64A007B4825 /* GLESUtils.m in Sources */,
+				0DC048F9280007D90033A716 /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,9 +266,12 @@
 		2171BC6D1661B25A007B4825 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEVELOPMENT_TEAM = 7XH8ZQQ2YY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tutorial02/Tutorial02-Prefix.pch";
 				INFOPLIST_FILE = "Tutorial02/Tutorial02-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -265,9 +280,12 @@
 		2171BC6E1661B25A007B4825 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEVELOPMENT_TEAM = 7XH8ZQQ2YY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tutorial02/Tutorial02-Prefix.pch";
 				INFOPLIST_FILE = "Tutorial02/Tutorial02-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

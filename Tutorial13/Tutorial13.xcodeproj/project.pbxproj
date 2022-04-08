@@ -231,12 +231,18 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "http://blog.csdn.net/kesalin/";
+				TargetAttributes = {
+					21E94A381690608200FBDB0B = {
+						DevelopmentTeam = 7XH8ZQQ2YY;
+					};
+				};
 			};
 			buildConfigurationList = 21E94A331690608200FBDB0B /* Build configuration list for PBXProject "Tutorial13" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = 21E94A2E1690608200FBDB0B;
@@ -353,9 +359,12 @@
 		21E94A581690608300FBDB0B /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEVELOPMENT_TEAM = 7XH8ZQQ2YY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tutorial13/Tutorial13-Prefix.pch";
 				INFOPLIST_FILE = "Tutorial13/Tutorial13-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -364,9 +373,12 @@
 		21E94A591690608300FBDB0B /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEVELOPMENT_TEAM = 7XH8ZQQ2YY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tutorial13/Tutorial13-Prefix.pch";
 				INFOPLIST_FILE = "Tutorial13/Tutorial13-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};

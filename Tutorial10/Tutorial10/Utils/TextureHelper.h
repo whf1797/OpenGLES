@@ -7,6 +7,7 @@
 
 #import <Foundation/Foundation.h>
 #import "TextureLoader.h"
+#import <OpenglES/ES2/gl.h>
 
 @interface TextureHelper : NSObject
 

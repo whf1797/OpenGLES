@@ -1,9 +1,9 @@
 //
 //  AppDelegate.h
-//  Tutorial02
+//  Tutorial01
 //
-//  Created by kesalin@gmail.com on 12-11-25.
-//  Copyright (c) 2012年 http://blog.csdn.net/kesalin/. All rights reserved.
+//  Created by  on 12-11-24.
+//  Copyright (c) 2012年 __MyCompanyName__. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>

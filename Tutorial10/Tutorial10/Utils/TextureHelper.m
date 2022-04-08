@@ -83,6 +83,7 @@
         case TextureFormatPvrtcRgba2:
             bitsPerPixel = 2;
             format = GL_COMPRESSED_RGBA_PVRTC_2BPPV1_IMG;
+//            GL_COMPRESSED_TEXTURE_FORMATS
             break;
         case TextureFormatPvrtcRgb2:
             bitsPerPixel = 2;

@@ -171,12 +171,18 @@
 			attributes = {
 				LastUpgradeCheck = 0420;
 				ORGANIZATIONNAME = "United-Imaging";
+				TargetAttributes = {
+					E36B8EDE16739A11008B4C5A = {
+						DevelopmentTeam = 7XH8ZQQ2YY;
+					};
+				};
 			};
 			buildConfigurationList = E36B8ED916739A11008B4C5A /* Build configuration list for PBXProject "Tutorial05" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 			);
 			mainGroup = E36B8ED416739A11008B4C5A;
@@ -287,9 +293,12 @@
 		E36B8EFE16739A11008B4C5A /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEVELOPMENT_TEAM = 7XH8ZQQ2YY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tutorial05/Tutorial05-Prefix.pch";
 				INFOPLIST_FILE = "Tutorial05/Tutorial05-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -298,9 +307,12 @@
 		E36B8EFF16739A11008B4C5A /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
+				DEVELOPMENT_TEAM = 7XH8ZQQ2YY;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "Tutorial05/Tutorial05-Prefix.pch";
 				INFOPLIST_FILE = "Tutorial05/Tutorial05-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.4;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
